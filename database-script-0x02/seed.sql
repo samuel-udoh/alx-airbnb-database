@@ -3,7 +3,7 @@
 -- ====================================================================
 -- Clean all data from tables in reverse order of dependency.
 -- This prevents foreign key constraint errors.
-DELETE FROM Message;
+DELETE FROM message;
 DELETE FROM Review;
 DELETE FROM Payment;
 DELETE FROM Booking;
