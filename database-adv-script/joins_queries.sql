@@ -32,7 +32,7 @@ SELECT
     u.email
 FROM
     booking b
-FULL OUTER  JOIN
+FULL OUTER JOIN
     "User" u ON b.user_id=u.user_id
 ORDER BY
     b.start_date DESC;

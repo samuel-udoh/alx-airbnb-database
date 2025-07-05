@@ -9,7 +9,7 @@ WHERE
     FROM 
         review  
     GROUP BY review.property_id 
-    HAVING AVG(review.rating) > 4
+    HAVING AVG(review.rating) > 4.0
     );
 
 SELECT 
